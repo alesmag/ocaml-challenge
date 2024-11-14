@@ -1,0 +1,17 @@
+# dune exec project
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /home/alesmag/.cache/dune/db
+# Workspace root: "/home/alesmag/Nextcloud/UNICA/A2S1/ALF - Automi e Linguaggi
+# Formali/ocaml-challenge/1/exam-committee/project"
+# Auto-detected concurrency: 16
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /usr/bin/ocamlc.opt -config > /tmp/dune_30369e_output
