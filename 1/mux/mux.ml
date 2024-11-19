@@ -5,8 +5,8 @@ let mux2 s0 a b =
 ;;
 
 let mux4 s1 s0 a0 a1 a2 a3 =
-  let al = mux2 s0 a0 a1 in
-  let ah = mux2 s0 a2 a3 in
+  let al = mux2 s0 a1 a0 in
+  let ah = mux2 s0 a3 a2 in
   mux2 s1 al ah
 ;;
 
