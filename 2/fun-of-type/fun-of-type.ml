@@ -36,3 +36,47 @@ let f8 flag =
 let f9 flag =
   fun x -> if flag then x + 1 else x
 ;;
+
+let f10 f =
+  -f (-1)
+;;
+
+let f11 f =
+  if (f 0) then 0 else 1
+;;
+
+let f12 f =
+  f true + f false
+;;
+
+let f13 f =
+  if f 1 then true else false
+;;
+
+let f14 f =
+  if f true then 1 else 0
+;;
+
+let f15 num (a, b) =
+  num * (a + b)
+;; 
+
+let f16 x =
+  fun y -> fun z -> x + y + z 
+;;
+
+let f17 f =
+  fun x -> f (f x + 1)
+;;
+
+let f18 f =
+  -f (fun x -> x + 1)
+;;
+
+let f19 f =
+  fun x -> f (if x then 1 else 0) > 0
+;;
+
+let f20 f =
+  fun x -> if f (if x then 1 else 0) then 1 else 0
+;;
